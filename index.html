@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Луиза, руководитель проектов. Запуск производства, управление командой и международные переговоры.">
+<title>Луиза · Руководитель проектов</title>
+<style>
+:root{color-scheme:light;--paper:#f2f3ed;--ink:#172722;--muted:#4e5c53;--dark:#172c25;--lime:#ddfa99;--line:#c8d0c6}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:17px/1.55 system-ui,sans-serif}
+a{color:inherit;text-underline-offset:.25em}
+a:focus-visible,summary:focus-visible{outline:3px solid #779a41;outline-offset:5px}
+header,main,footer{width:min(1160px,calc(100% - 40px));margin-inline:auto}
+header,nav{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}
+header{padding-block:20px}
+header a{text-decoration:none;font-weight:700}
+nav a{font-size:.92rem}
+.brand{font-size:1.3rem}
+.hero,.contact{background:var(--dark);color:#fff;border-radius:24px}
+.hero{padding:clamp(26px,7vw,86px);display:grid;grid-template-columns:minmax(0,1.8fr) minmax(170px,.7fr);gap:36px;align-items:center}
+.kicker{font-size:.9rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;margin:0 0 14px}
+.hero .kicker,.contact h2{color:var(--lime)}
+h1,h2,h3,p{margin:0}
+h1,h2{letter-spacing:-.045em;line-height:1.04}
+h1{font-size:clamp(2.2rem,6vw,5.15rem);max-width:13ch}
+h2{font-size:clamp(2rem,4.8vw,3.6rem)}
+h3{font-size:clamp(1.28rem,2.6vw,2rem);line-height:1.16;letter-spacing:-.025em}
+.lead{max-width:58ch;margin-top:23px;color:#dfe9db}
+.button{display:inline-block;text-decoration:none;font-weight:750;background:var(--lime);color:var(--dark);padding:12px 19px;border-radius:8px;margin-top:23px}
+.hero aside{border-left:1px solid #597467;padding-left:26px}
+.hero aside strong{font-size:clamp(2.4rem,5vw,4.7rem);letter-spacing:-.065em;display:block;line-height:1;color:var(--lime)}
+.hero aside p{margin-top:9px}
+section{scroll-margin-top:24px;margin-block:clamp(45px,8vw,96px)}
+.cases{margin-top:20px;border-top:1px solid var(--line)}
+article{display:grid;grid-template-columns:minmax(160px,1fr) minmax(0,2.55fr);gap:28px;padding:30px 0;border-bottom:1px solid var(--line)}
+article .kicker,.case-copy p,li{color:var(--muted)}
+.metric{display:block;font-size:clamp(1.75rem,4vw,3.1rem);line-height:1.08;letter-spacing:-.045em}
+.case-copy>p{margin-top:12px;max-width:70ch}
+details{margin-top:16px}
+summary{font-weight:700;cursor:pointer;width:fit-content}
+details p{margin-top:10px}
+details ul{margin:10px 0 0;padding-left:22px}
+li+li{margin-top:7px}
+.more{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:20px}
+.more>div{background:#e5eadf;border-radius:16px;padding:22px}
+.more p{margin-top:10px;color:var(--muted)}
+.contact{padding:clamp(24px,6vw,58px);margin-bottom:30px}
+.contact p{margin-top:14px;color:#dfe9db}
+footer{padding-bottom:26px;color:var(--muted)}
+@media(max-width:700px){
+  .hero,article,.more{grid-template-columns:1fr}
+  .hero aside{border-left:0;border-top:1px solid #597467;padding:20px 0 0}
+  article{gap:15px}
+}
+@media(max-width:380px){header,main,footer{width:calc(100% - 28px)}nav{gap:12px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header>
+<a class="brand" href="#about">Луиза</a>
+<nav aria-label="Разделы"><a href="#cases">Кейсы</a><a href="#digital">Digital</a><a href="#contact">Контакты</a></nav>
+</header>
+<main>
+<div class="hero" id="about">
+<div>
+<p class="kicker">Луиза · Руководитель проектов</p>
+<h1>Беру на себя запуск и собираю команду под задачу</h1>
+<p class="lead">Координировала вывод сотрудников на первое производство, управляла рестораном и участвовала в переговорах с партнерами в Китае. Сейчас также веду онлайн-запуски и внедряю ИИ в работу команд.</p>
+<a class="button" href="#cases">Смотреть кейсы</a>
+</div>
+<aside aria-label="Масштаб команды"><strong>до 50</strong><p>человек в моем непосредственном подчинении</p></aside>
+</div>
+<section id="cases">
+<h2>Проекты и решения</h2>
+<div class="cases">
+<article>
+<div><p class="kicker">Запуск производства</p><strong class="metric">6 месяцев</strong><p>до запуска первого завода</p></div>
+<div class="case-copy">
+<h3>Координировала вывод людей на первое производство</h3>
+<p>В разгар запуска мне передали руководство командой. Я представляла ее на совещаниях и отвечала за то, чтобы новые сотрудники выходили на смены и знали, где им работать.</p>
+<details><summary>Что было в моей зоне ответственности</summary>
+<ul><li>Каждый день с командой обновляла схему распределения людей по участкам и сменам. Проверяла на месте, что списки актуальны.</li><li>Согласовывала перестановки с руководителями производства, когда менялась численность смен или сотруднику требовалось другое рабочее место.</li><li>До перехода в эту роль вела лидерские программы и стажировки для молодых специалистов.</li></ul>
+<p>Первый завод запустили за полгода совместно с командой и руководством. За время моей работы численность компании выросла примерно с 700 до 13 000 человек к маю 2025 года.</p>
+</details>
+</div>
+</article>
+<article>
+<div><p class="kicker">Международный проект</p><strong class="metric">9 часов</strong><p>переговоров в Шэньчжэне</p></div>
+<div class="case-copy">
+<h3>Участвовала в переговорах по проекту на 1 млрд ₽</h3>
+<p>На встрече с китайской стороной работала вместе с инженерами, менеджерами и переводчиками.</p>
+<details><summary>Моя роль на встрече</summary><p>Представляла свою часть проекта и отвечала на вопросы в рамках общей встречи. Рабочий разговор шел через переводчиков.</p></details>
+</div>
+</article>
+<article>
+<div><p class="kicker">Антикризисное управление</p><strong class="metric">500 м²</strong><p>ресторан в жилом районе</p></div>
+<div class="case-copy">
+<h3>Искала финансирование для ресторана в локдаун</h3>
+<p>В начале 2020 года ресторан вышел на безубыточность, а в феврале получил небольшую прибыль. После мартовских ограничений выручка упала. Я взяла на себя переговоры с банками.</p>
+<details><summary>Что сделала и чем закончился проект</summary><p>Обзвонила банки и помогла получить льготное финансирование под 0% и 2%. Первоначальный кредит погасили за счет следующей программы поддержки. Позже ресторан закрыли.</p></details>
+</div>
+</article>
+</div>
+</section>
+<section id="digital">
+<h2>Онлайн-запуски и ИИ</h2>
+<div class="more">
+<div><h3>Продюсирование</h3><p>Веду онлайн-запуски от исследования аудитории и оффера до лендинга, воронки и сбора заявок. Координирую подрядчиков.</p></div>
+<div><h3>Автоматизация</h3><p>Собрала систему из 11 ИИ-агентов для подготовки запусков. Они помогают разобрать бриф, собрать материалы для контента и подготовить страницы. Результаты проверяю на каждом ключевом этапе.</p></div>
+</div>
+</section>
+<section class="contact" id="contact">
+<h2>Обсудим ваш проект</h2>
+<p>Интересны роли руководителя проектов и операционного руководителя.</p>
+<a class="button" href="https://t.me/aluik1">Написать в Telegram</a>
+</section>
+</main>
+<footer>Луиза · Управление проектами</footer>
+</body>
+</html>
